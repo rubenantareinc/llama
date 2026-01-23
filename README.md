@@ -161,8 +161,8 @@ index 0000000..1111111 100644
  Thank you!
  
 **Important:** This repository is **deprecated** and is maintained primarily for historical reference and minimal Llama 2 example code.  
-+For current Llama releases and the end-to-end Llama Stack, please use the repositories listed above.
-+
+For current Llama releases and the end-to-end Llama Stack, please use the repositories listed above.
+
 **Scope note:** The instructions and examples below apply to **Llama 2** only and may not reflect the latest best practices for newer releases.
 
  (Deprecated) Llama 2
