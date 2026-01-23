@@ -160,10 +160,10 @@ index 0000000..1111111 100644
  
  Thank you!
  
-+**Important:** This repository is **deprecated** and is maintained primarily for historical reference and minimal Llama 2 example code.  
+**Important:** This repository is **deprecated** and is maintained primarily for historical reference and minimal Llama 2 example code.  
 +For current Llama releases and the end-to-end Llama Stack, please use the repositories listed above.
 +
-+**Scope note:** The instructions and examples below apply to **Llama 2** only and may not reflect the latest best practices for newer releases.
+**Scope note:** The instructions and examples below apply to **Llama 2** only and may not reflect the latest best practices for newer releases.
 
  (Deprecated) Llama 2
  We are unlocking the power of large language models. Llama 2 is now accessible to individuals, creators, researchers, and businesses of all sizes so that they can experiment, innovate, and scale their ideas responsibly.
