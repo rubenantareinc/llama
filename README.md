@@ -95,6 +95,18 @@ torchrun --nproc_per_node 1 example_text_completion.py \
     --max_seq_len 128 --max_batch_size 4
 ```
 
+#### Optional evaluation metrics
+
+`example_text_completion.py` accepts an optional `--reference` string to evaluate generations with simple BLEU, ROUGE-L, and diversity metrics. For example:
+
+```
+torchrun --nproc_per_node 1 example_text_completion.py \
+    --ckpt_dir llama-2-7b/ \
+    --tokenizer_path tokenizer.model \
+    --max_seq_len 128 --max_batch_size 4 \
+    --reference="The meaning of life is to learn and grow."
+```
+
 ### Fine-tuned Chat Models
 
 The fine-tuned models were trained for dialogue applications. To get the expected features and performance for them, a specific formatting defined in [`chat_completion`](https://github.com/facebookresearch/llama/blob/main/llama/generation.py#L212)
@@ -167,4 +179,3 @@ For current Llama releases and the end-to-end Llama Stack, please use the reposi
 
  (Deprecated) Llama 2
  We are unlocking the power of large language models. Llama 2 is now accessible to individuals, creators, researchers, and businesses of all sizes so that they can experiment, innovate, and scale their ideas responsibly.
-
