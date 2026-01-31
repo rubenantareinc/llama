@@ -1,3 +1,15 @@
+## Fork additions (evaluation + CI)
+
+This repository is a fork of Meta’s Llama inference code. I added a lightweight NLP evaluation layer on top of text generation to support quick, reproducible regression checks:
+- Reference-based metrics: BLEU, ROUGE-L, and simple diversity measures
+- A minimal unit test suite to validate evaluation behavior
+- A minimal GitHub Actions workflow for automated checks (fork workflows may require maintainer approval upstream)
+
+Where to look:
+- `example_text_completion.py` (adds `--reference` + metric reporting)
+- README diff summary near the bottom (documents the evaluation layer)
+- Upstream PR: #1408 (documentation + eval utilities/tests/CI notes)
+
 ## **Note of deprecation**
 
 Thank you for developing with Llama models. As part of the Llama 3.1 release, we’ve consolidated GitHub repos and added some additional repos as we’ve expanded Llama’s functionality into being an e2e Llama Stack. Please use the following repos going forward:
